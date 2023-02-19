@@ -1,3 +1,4 @@
+import type { Context } from "https://edge.netlify.com";
 addEventListener(
   "fetch", event => {
       let url = new URL(event.request.url);
